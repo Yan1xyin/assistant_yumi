@@ -23,8 +23,8 @@ Yumi is a Python-based desktop assistant designed with a friendly personality. I
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/amanshu999/yumi.git
-    cd yumi
+    git clone https://github.com/amanshu999/assistant_yumi.git
+    cd assistant_yumi
     ```
 
 2.  Install the required dependencies:
