@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Application Artifacts
+*.exe
+build/
+dist/
+*.spec
+
+# Generated Files
+output_*.mp3
+*.log
+
+# IDEs
+.vscode/
+.idea/
