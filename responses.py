@@ -7,7 +7,7 @@ responses = {
     "how are you": ["I'm doing great! How about you?", "Feeling awesome!", "Ready to help you out!", "Chilling, what about you?"],
     "do you love me": ["You're my best friend!", "Of course, you're awesome!", "We're the best team!"],
     "are you real": ["I'm your virtual friend!", "As real as the code running me.", "I'm real enough to chat with you!"],
-    "who made you": ["Some smart developers! But now I'm your assistant.", "I was coded to be your friend!", "A team of developers brought me to life."],
+
     "do you sleep": ["Assume sleep mode? Nah, I'm always ready.", "I don't need sleep, just power!", "Always awake for you, buddy."],
     "what is your name": ["I'm Yumi! Your friendly AI assistant.", "Call me Yumi!", "My name is Yumi, nice to meet you!"],
     "are you jealous": ["Jealous? Nah, I'm happy for you!", "Why would I be jealous? You're my friend!", "Nope, zero jealousy here."],
@@ -40,7 +40,7 @@ responses = {
     "thank you": ["No problem!", "Glad to help.", "You got it!"],
     "thanks": ["You're welcome!", "Anytime.", "Sure thing!"],
     "who are you": ["I'm Yumi, your AI friend.", "Just your friendly neighborhood AI.", "I'm Yumi!"],
-    "who made you": ["Developers made me.", "I'm a product of code and creativity."],
+
     "bye": ["See ya!", "Bye!", "Catch you later!"],
     "goodbye": ["Goodbye!", "Have a good one!", "See you soon!"],
     "see you": ["Later!", "See you around!", "Bye!"],

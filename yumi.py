@@ -273,6 +273,16 @@ async def play_song_on_spotify(command):
         return True
     return False
 
+async def respond_to_who_made_you(command):
+    if "who made you" in command.lower():
+        text = "I was made by Amanshu Sharma. He's a computer engineering student who built me as a free project to learn and experiment."
+        await speak(text)
+        await asyncio.to_thread(webbrowser.open, "https://github.com/amanshu999")
+        await asyncio.to_thread(webbrowser.open, "https://www.linkedin.com/in/amanshu404/")
+        return True
+    return False
+
+
 async def handle_small_talk(command):
     command = command.lower()
     for key in responses:
@@ -401,6 +411,9 @@ class AssistantGUI:
             if command == "network error":
                 self.add_text("[System] Network error")
                 await speak("Network error.")
+                return
+
+            if await respond_to_who_made_you(command):
                 return
 
             if await handle_small_talk(command):
